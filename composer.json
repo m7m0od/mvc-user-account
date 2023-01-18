@@ -1,0 +1,18 @@
+{
+    "name": "route/mvc",
+    "autoload": {
+        "psr-4": {
+            "Route\\Mvc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "you@example.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.7",
+        "rakit/validation": "^1.4"
+    }
+}

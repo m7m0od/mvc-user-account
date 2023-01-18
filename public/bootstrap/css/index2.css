@@ -1,0 +1,39 @@
+*{box-sizing: border-box;}
+.row{margin-right: 0!important;margin-left: 0!important;}
+.forHeaders{margin-top: 80px!important;}
+
+/* nav design */
+.navHeader{background-color:rgba(37, 36, 36,0.8);}
+.first-content img{width: 108px;height: 40px;}
+.collapse{justify-content: flex-end!important;}
+.second-content ul li{display: inline-block;margin-right: 20px;}
+.second-content ul li a{text-decoration: none;color: #EEE;}
+.dropbtn {color: white;text-align: center;text-decoration: none;}
+.dropdown-content {display: none;position: absolute;margin-left:5px;background-color:white;min-width: 100px;;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index: 1;}
+.dropdown-content a {color: black!important;padding: 6px 8px;text-decoration: none;display: block;text-align: left;}
+.dropdown-content a:hover {background-color:darkgrey;}
+.dropdown:hover .dropdown-content {display: block;}
+.forCarMargin{margin-bottom: -4px!important;}
+
+/* forms design */
+.form{width: 100%;margin: auto;text-align: center;}
+.form .form-group{margin-bottom: 10px;}
+.form .form-group .forRes{position:relative;width: 100%!important;display: inline-grid!important;}
+.form .form-group i{position: absolute;top: 12px;right: 15px; font-size: 10px;}
+.form .form-group .alert-danger,.alert-danger p{margin-bottom: 0!important;}
+.form .form-group .sub{width: 25%!important;display: inline!important;}
+.form .form-group .custom-alert{padding: 5px 10px;display:none;}
+.mbbb{margin-left: -115px!important;}
+
+/* 404 page design */
+.wrapper {display: flex;align-items: center;justify-content: center;height: 100vh;overflow: hidden;}
+.wrapper h1 {font-size: 50px;line-height: 60px;}
+.wrapper span {display: block;font-size: 18px;line-height: 30px;}
+.wrapper .container {width: 80%;max-width: 1600px;margin: auto;}
+.wrapper .grid-row {display: grid;grid-template-columns: 1fr 1fr;place-items: center;grid-gap: 50px;}
+.wrapper .colmun-left {text-align: left;}
+.wrapper .colmun-right {text-align: right;}
+.px-spc-b-20 {padding-bottom: 20px;}
+.wrapper a.go-home {padding: 5px 20px;background: cornflowerblue;border: transparent;border-radius: 2px;box-shadow: 0 0 2px rgb(0 0 0 / 30%);cursor: pointer;margin: 20px 0;color: #fff;}
+.wrapper a.go-home i {color: #fff;}
+.wrapper img {display: block;width: 100%;}
